@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+#header{
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+.nav{
+    border-bottom: 2px solid black;
+}
+.nav a{
+    color: black ;
+    font-weight: 600;
+    margin-right: 200px;
+}
+
+.hero-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+}
+.hero-items h1{
+    width: 100px;
+    font-size: 48px;
+}
+.aza{
+    width: 200px;
+    font-size: 18px;
+    line-height: 22px;
+}
+.shuke{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.kutia{
+    background: url("img/150616023352.jpg") no-repeat center/cover;
+    width: 100%;
+    min-height: 90vh;
+
+}
+
+body{
+    background: url("img/1594165673_830_pre-8-sovetov-po-sozdaniyu-idealnyh-fonov-dlya-sajtov.jpg") ;
+
+}
